@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cookie Policy for Family Matters Legal and Curtis Law, PLLC — how we use cookies and how to manage your preferences." />
+  <meta name="robots" content="noindex, follow" />
+  <title>Cookie Policy | Family Matters Legal | Curtis Law</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .cookie-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 0.88rem;
+    }
+    .cookie-table th {
+      background: var(--gradient-green);
+      color: var(--white);
+      text-align: left;
+      padding: 12px 14px;
+      font-weight: 700;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+    }
+    .cookie-table td {
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      color: var(--text-gray);
+      line-height: 1.6;
+    }
+    .cookie-table tr:nth-child(even) td { background: var(--off-white); }
+    .cookie-table code {
+      font-family: monospace;
+      background: var(--green-pale);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.82rem;
+      color: var(--green-dark);
+    }
+    .cookie-category-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .badge-necessary { background: #E8F4FD; color: #1A567A; border: 1px solid #B8D9F0; }
+    .badge-analytics  { background: #FDF3E8; color: #7A4A1A; border: 1px solid #F0D4B8; }
+    .badge-preference { background: var(--green-pale); color: var(--green-dark); border: 1px solid #C5DACC; }
+    .preference-toggle {
+      background: var(--green-pale);
+      border: 1px solid #C5DACC;
+      border-radius: var(--radius-md);
+      padding: 20px 24px;
+      margin: 16px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .preference-toggle-info h4 { margin-bottom: 4px; color: var(--green-dark); }
+    .preference-toggle-info p { font-size: 0.88rem; margin: 0; }
+    .toggle-switch {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+    .toggle-switch input { opacity: 0; width: 0; height: 0; position: absolute; }
+    .toggle-track {
+      width: 48px;
+      height: 26px;
+      background: #ccc;
+      border-radius: 13px;
+      transition: background 0.3s;
+      position: relative;
+      flex-shrink: 0;
+    }
+    .toggle-track::after {
+      content: '';
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 20px;
+      height: 20px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.3s;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
+    .toggle-switch input:checked + .toggle-track { background: var(--green-mid); }
+    .toggle-switch input:checked + .toggle-track::after { transform: translateX(22px); }
+    .toggle-switch input:disabled + .toggle-track { background: var(--green-mid); opacity: 0.7; cursor: not-allowed; }
+    .toggle-switch input:disabled + .toggle-track::after { transform: translateX(22px); }
+    .toggle-label { font-size: 0.82rem; font-weight: 700; color: var(--green-dark); min-width: 60px; }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span><i class="fa-regular fa-clock"></i> Mon – Fri: 8am – 6pm &nbsp;|&nbsp; Sat: By Appointment</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+16025550100"><i class="fa-solid fa-phone"></i>(602) 555-0100</a>
+        <a href="mailto:info@familymatterslegal.com"><i class="fa-solid fa-envelope"></i>info@familymatterslegal.com</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo-wrap" aria-label="Family Matters Legal – Home">
+          <img src="Images/FamilyLawMattersLogos.png" alt="Family Matters Legal – A Curtis Law Practice" class="logo-img">
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="practice-areas.html">Practice Areas</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-gold" style="padding:10px 18px;font-size:0.82rem;">Free Consultation</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="practice-areas.html">Practice Areas</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Page Hero -->
+  <div class="page-hero" aria-label="Cookie Policy hero">
+    <div class="container page-hero-inner">
+      <div class="breadcrumb"><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i><span>Cookie Policy</span></div>
+      <span class="eyebrow">Legal</span>
+      <h1>Cookie Policy</h1>
+      <p>How Family Matters Legal uses cookies and similar technologies — and how you can manage your preferences.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="legal-content">
+
+        <div class="legal-meta">
+          <strong>Last Updated:</strong> January 1, 2026 &nbsp;&nbsp;|&nbsp;&nbsp;
+          <strong>Effective Date:</strong> January 1, 2026 &nbsp;&nbsp;|&nbsp;&nbsp;
+          <strong>Governing Law:</strong> Arizona Consumer Data Privacy Act (ACDPA)
+        </div>
+
+        <div class="legal-toc">
+          <h4><i class="fa-solid fa-list" style="margin-right:8px;color:var(--gold-dark);"></i>Table of Contents</h4>
+          <ol>
+            <li><a href="#ck-1">What Are Cookies?</a></li>
+            <li><a href="#ck-2">Why We Use Cookies</a></li>
+            <li><a href="#ck-3">Types of Cookies We Use</a></li>
+            <li><a href="#ck-4">Cookies We Set</a></li>
+            <li><a href="#ck-5">Third-Party Cookies</a></li>
+            <li><a href="#ck-6">Manage Your Preferences</a></li>
+            <li><a href="#ck-7">Browser Cookie Controls</a></li>
+            <li><a href="#ck-8">Opt-Out Links</a></li>
+            <li><a href="#ck-9">Impact of Disabling Cookies</a></li>
+            <li><a href="#ck-10">Changes to This Policy</a></li>
+            <li><a href="#ck-11">Contact Us</a></li>
+          </ol>
+        </div>
+
+        <h2 id="ck-1">1. What Are Cookies?</h2>
+        <p>Cookies are small text files that are stored on your device (computer, tablet, or mobile phone) when you visit a website. They are widely used to make websites work efficiently, improve performance, and provide information to the website owner.</p>
+        <p>Similar technologies include:</p>
+        <ul>
+          <li><strong>Local storage:</strong> Data stored in your browser that persists between sessions;</li>
+          <li><strong>Session storage:</strong> Temporary data that is cleared when you close your browser tab;</li>
+          <li><strong>Pixels and web beacons:</strong> Tiny images that record when a page is viewed;</li>
+          <li><strong>Browser fingerprinting:</strong> Identifying your browser by its technical characteristics.</li>
+        </ul>
+        <p>This policy covers all of these technologies collectively referred to as "cookies."</p>
+
+        <h2 id="ck-2">2. Why We Use Cookies</h2>
+        <p>We use cookies to:</p>
+        <ul>
+          <li>Ensure the Website functions properly (essential functions);</li>
+          <li>Remember your preferences and cookie consent choices;</li>
+          <li>Analyze how visitors use our Website to improve it;</li>
+          <li>Understand which pages and content are most useful to visitors.</li>
+        </ul>
+        <p>We do <strong>not</strong> use cookies for advertising targeting, profiling, or selling your data to third parties.</p>
+
+        <h2 id="ck-3">3. Types of Cookies We Use</h2>
+
+        <h3>Strictly Necessary Cookies</h3>
+        <p>These cookies are required for the Website to function. They cannot be turned off. They do not store any personally identifiable information and are usually set in response to actions you take (like setting cookie preferences).</p>
+
+        <h3>Analytics / Performance Cookies</h3>
+        <p>These cookies help us understand how visitors interact with our Website by collecting and reporting information anonymously. They help us improve the Website. <strong>These cookies are only set with your consent.</strong></p>
+
+        <h3>Preference / Functionality Cookies</h3>
+        <p>These cookies allow the Website to remember choices you make (such as your preferred language or region) and provide enhanced, personalized features. <strong>These cookies are only set with your consent.</strong></p>
+
+        <h2 id="ck-4">4. Cookies We Set</h2>
+
+        <div style="overflow-x:auto;">
+          <table class="cookie-table">
+            <thead>
+              <tr>
+                <th>Cookie Name</th>
+                <th>Type</th>
+                <th>Purpose</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>fml_cookie_consent</code></td>
+                <td><span class="cookie-category-badge badge-necessary">Necessary</span></td>
+                <td>Stores your cookie consent preference so we don't ask again</td>
+                <td>12 months</td>
+              </tr>
+              <tr>
+                <td><code>_ga</code></td>
+                <td><span class="cookie-category-badge badge-analytics">Analytics</span></td>
+                <td>Google Analytics — distinguishes unique users (anonymized)</td>
+                <td>2 years</td>
+              </tr>
+              <tr>
+                <td><code>_ga_[ID]</code></td>
+                <td><span class="cookie-category-badge badge-analytics">Analytics</span></td>
+                <td>Google Analytics — maintains session state</td>
+                <td>2 years</td>
+              </tr>
+              <tr>
+                <td><code>_gid</code></td>
+                <td><span class="cookie-category-badge badge-analytics">Analytics</span></td>
+                <td>Google Analytics — distinguishes users within 24 hours</td>
+                <td>24 hours</td>
+              </tr>
+              <tr>
+                <td><code>fml_pref</code></td>
+                <td><span class="cookie-category-badge badge-preference">Preference</span></td>
+                <td>Remembers UI preferences (e.g., language)</td>
+                <td>6 months</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="ck-5">5. Third-Party Cookies</h2>
+        <p>With your consent, we use the following third-party services that may set their own cookies:</p>
+
+        <div style="overflow-x:auto;">
+          <table class="cookie-table">
+            <thead>
+              <tr>
+                <th>Provider</th>
+                <th>Type</th>
+                <th>Purpose</th>
+                <th>Privacy Policy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Google Analytics</td>
+                <td><span class="cookie-category-badge badge-analytics">Analytics</span></td>
+                <td>Website traffic and behavior analysis (IP anonymized)</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></td>
+              </tr>
+              <tr>
+                <td>Google Maps</td>
+                <td><span class="cookie-category-badge badge-necessary">Necessary</span></td>
+                <td>Embedded map on Contact page (if enabled)</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></td>
+              </tr>
+              <tr>
+                <td>Font Awesome CDN</td>
+                <td><span class="cookie-category-badge badge-necessary">Necessary</span></td>
+                <td>Icon library (no cookies set, but assets are loaded remotely)</td>
+                <td><a href="https://fontawesome.com/privacy" target="_blank" rel="noopener noreferrer">Font Awesome Privacy</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="ck-6">6. Manage Your Cookie Preferences</h2>
+        <p>You can update your cookie preferences at any time below. Strictly necessary cookies cannot be disabled as they are essential for the Website to work.</p>
+
+        <div class="preference-toggle">
+          <div class="preference-toggle-info">
+            <h4>Strictly Necessary Cookies</h4>
+            <p>Essential for the website to function. Cannot be disabled.</p>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" checked disabled aria-label="Strictly necessary cookies (always on)" />
+            <div class="toggle-track"></div>
+            <span class="toggle-label">Always On</span>
+          </label>
+        </div>
+
+        <div class="preference-toggle">
+          <div class="preference-toggle-info">
+            <h4>Analytics Cookies</h4>
+            <p>Help us understand how visitors use the Website. All data is anonymized.</p>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="toggle-analytics" aria-label="Analytics cookies" />
+            <div class="toggle-track"></div>
+            <span class="toggle-label" id="toggle-analytics-label">Off</span>
+          </label>
+        </div>
+
+        <div class="preference-toggle">
+          <div class="preference-toggle-info">
+            <h4>Preference Cookies</h4>
+            <p>Remember your choices and enhance your experience.</p>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="toggle-preference" aria-label="Preference cookies" />
+            <div class="toggle-track"></div>
+            <span class="toggle-label" id="toggle-preference-label">Off</span>
+          </label>
+        </div>
+
+        <button class="btn btn-gold" onclick="saveCookiePreferences()" style="margin-top:8px;">
+          Save Preferences
+        </button>
+        <div id="pref-saved-msg" style="display:none;margin-top:12px;padding:10px 16px;background:var(--green-pale);color:var(--green-dark);border-radius:6px;font-size:0.88rem;font-weight:600;">
+          <i class="fa-solid fa-check" style="margin-right:6px;"></i>Cookie preferences saved.
+        </div>
+
+        <h2 id="ck-7">7. Browser Cookie Controls</h2>
+        <p>Most browsers allow you to control cookies through their settings. Here's how to manage cookies in popular browsers:</p>
+        <ul>
+          <li><strong>Google Chrome:</strong> Settings → Privacy and Security → Cookies and other site data</li>
+          <li><strong>Mozilla Firefox:</strong> Settings → Privacy &amp; Security → Cookies and Site Data</li>
+          <li><strong>Apple Safari:</strong> Preferences → Privacy → Manage Website Data</li>
+          <li><strong>Microsoft Edge:</strong> Settings → Cookies and site permissions → Cookies and site data</li>
+        </ul>
+        <p>Please note that restricting cookies may affect the functionality of this Website and many other websites you visit.</p>
+
+        <h2 id="ck-8">8. Opt-Out Links</h2>
+        <ul>
+          <li><strong>Google Analytics:</strong> Install the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-Out Browser Add-on</a></li>
+          <li><strong>Network Advertising Initiative:</strong> <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer">NAI Opt-Out Tool</a></li>
+          <li><strong>Digital Advertising Alliance:</strong> <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">DAA Opt-Out Tool</a></li>
+        </ul>
+
+        <h2 id="ck-9">9. Impact of Disabling Cookies</h2>
+        <p>Disabling or restricting cookies may affect your experience on this Website in the following ways:</p>
+        <ul>
+          <li>Your cookie consent preference may not be remembered, and the banner may reappear on each visit;</li>
+          <li>We will not be able to analyze Website traffic or improve based on usage data;</li>
+          <li>Some interactive features may not function as expected.</li>
+        </ul>
+        <p>Disabling cookies will not prevent you from accessing the Website's content or contacting us.</p>
+
+        <h2 id="ck-10">10. Changes to This Policy</h2>
+        <p>We may update this Cookie Policy from time to time to reflect changes in our practices or for legal, technical, or regulatory reasons. When we make changes, we will update the "Last Updated" date at the top of this page. We encourage you to review this Policy periodically.</p>
+
+        <h2 id="ck-11">11. Contact Us</h2>
+        <p>If you have questions about our use of cookies or this Cookie Policy, please contact us:</p>
+        <ul>
+          <li><strong>Curtis Law, PLLC / Family Matters Legal</strong></li>
+          <li>123 N. Central Avenue, Suite 400, Phoenix, AZ 85004</li>
+          <li>Phone: <a href="tel:+16025550100">(602) 555-0100</a></li>
+          <li>Email: <a href="mailto:privacy@familymatterslegal.com">privacy@familymatterslegal.com</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <div class="footer-logo-wrap">
+              <img src="Images/FamilyLawMattersLogos.png" alt="Family Matters Legal – A Curtis Law Practice" class="footer-logo-img">
+            </div>
+            <p>Compassionate, experienced family law representation for Arizona families.</p>
+            <div class="footer-badge"><strong>Arizona State Bar Certified</strong>Curtis Law, PLLC is licensed to practice law in the State of Arizona.</div>
+          </div>
+          <div class="footer-col">
+            <h4>Practice Areas</h4>
+            <div class="footer-links">
+              <a href="practice-areas.html#divorce">Divorce &amp; Separation</a>
+              <a href="practice-areas.html#custody">Child Custody</a>
+              <a href="practice-areas.html#adoption">Adoption</a>
+              <a href="practice-areas.html#domestic-violence">Domestic Violence</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <div class="footer-links">
+              <a href="tos.html">Terms of Service</a>
+              <a href="privacy-policy.html">Privacy Policy</a>
+              <a href="cookie-policy.html">Cookie Policy</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>123 N. Central Ave, Suite 400<br>Phoenix, AZ 85004</span></div>
+            <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><span><a href="tel:+16025550100">(602) 555-0100</a></span></div>
+            <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><span><a href="mailto:info@familymatterslegal.com">info@familymatterslegal.com</a></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-disclaimer"><div class="container"><strong>Attorney Advertising.</strong> Curtis Law, PLLC is licensed to practice law in Arizona.</div></div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span class="footer-copy">© 2026 Curtis Law, PLLC · Family Matters Legal. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="tos.html">Terms of Service</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Cookie preference toggles
+    var CONSENT_KEY = 'fml_cookie_consent';
+    var ANALYTICS_KEY = 'fml_cookie_analytics';
+    var PREF_KEY = 'fml_cookie_pref';
+
+    (function () {
+      var analyticsEl = document.getElementById('toggle-analytics');
+      var prefEl = document.getElementById('toggle-preference');
+      var analyticsLabel = document.getElementById('toggle-analytics-label');
+      var prefLabel = document.getElementById('toggle-preference-label');
+
+      if (localStorage.getItem(ANALYTICS_KEY) === 'true') {
+        analyticsEl.checked = true;
+        analyticsLabel.textContent = 'On';
+      }
+      if (localStorage.getItem(PREF_KEY) === 'true') {
+        prefEl.checked = true;
+        prefLabel.textContent = 'On';
+      }
+
+      analyticsEl.addEventListener('change', function () {
+        analyticsLabel.textContent = this.checked ? 'On' : 'Off';
+      });
+      prefEl.addEventListener('change', function () {
+        prefLabel.textContent = this.checked ? 'On' : 'Off';
+      });
+    })();
+
+    function saveCookiePreferences() {
+      var analytics = document.getElementById('toggle-analytics').checked;
+      var pref = document.getElementById('toggle-preference').checked;
+      localStorage.setItem(ANALYTICS_KEY, analytics);
+      localStorage.setItem(PREF_KEY, pref);
+      localStorage.setItem(CONSENT_KEY, 'custom');
+      var msg = document.getElementById('pref-saved-msg');
+      msg.style.display = 'block';
+      setTimeout(function () { msg.style.display = 'none'; }, 4000);
+    }
+  </script>
+</body>
+</html>
